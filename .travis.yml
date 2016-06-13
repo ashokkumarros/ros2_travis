@@ -94,6 +94,7 @@ install:
 script:
   - export CXX=g++-4.8
   - export CC=gcc-4.8
+  - cmake --version  
   - cd $HOME/ros2_ws/
   - src/ament/ament_tools/scripts/ament.py build --symlink-install
 

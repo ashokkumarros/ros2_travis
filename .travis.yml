@@ -30,7 +30,7 @@ before_install:
   - sudo apt-get install python3-nose 
   # - sudo apt-get install python3-pip 
   - sudo apt-get install python3-setuptools 
-  - sudo apt-get install python3-vcstool
+  # - sudo apt-get install python3-vcstool
   - sudo apt-get install clang-format 
   - sudo apt-get install pyflakes 
   - sudo apt-get install python3-coverage 
@@ -53,8 +53,8 @@ install:
   # - pip install flake8
   # - pip install mock
   # - pip install coverage
-  - pip3 install empy # EmPy
-  # - pip install vcstool
+  - pip install empy # EmPy
+  - pip install vcstool
 
   - sh -c 'echo "deb http://packages.ros.org/ros/ubuntu `lsb_release -cs` main" > /etc/apt/sources.list.d/ros-latest.list'
   - apt-key adv --keyserver ha.pool.sks-keyservers.net --recv-keys 421C365BD9FF1F717815A3895523BAEEB01FA116

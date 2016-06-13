@@ -34,9 +34,9 @@ before_install:
   # - sudo apt-get install python3-vcstool
   # - sudo apt-get install clang-format 
   - sudo apt-get install pyflakes 
-  - sudo apt-get install python3-coverage 
-  - sudo apt-get install python3-mock 
-  - sudo apt-get install python3-pep8 
+  # - sudo apt-get install python3-coverage 
+  # - sudo apt-get install python3-mock 
+  # - sudo apt-get install python3-pep8 
   - sudo apt-get install uncrustify
   - sudo apt-get install libboost-chrono-dev # dependencies for FastRTPS
   - sudo apt-get install libboost-date-time-dev 
@@ -48,12 +48,12 @@ before_install:
 
 install: 
   # - pip install nose
-  # - pip install pep8
+  - pip install pep8
   # - pip install pydocstyle
   # - pip install pyflakes
   # - pip install flake8
-  # - pip install mock
-  # - pip install coverage
+  - pip install mock
+  - pip install coverage
   - pip install empy # EmPy
   - pip install vcstool
 

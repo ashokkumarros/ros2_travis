@@ -1,4 +1,4 @@
-language: python, cpp
+language: python
 sudo: true
 
 python:
@@ -62,7 +62,7 @@ before_install:
 
 install: 
   # - pip install nose
-  - pip install pep8
+  - pip3 install pep8
   # - pip install pydocstyle
   # - pip install pyflakes
   # - pip install flake8

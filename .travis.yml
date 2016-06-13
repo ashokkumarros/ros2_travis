@@ -12,7 +12,7 @@ addons:
       # nodejs >v4 compiler requirements
       - g++-4.8
       - gcc-4.8
-      - cmake-2.8.11
+      - cmake
       # - openjdk-7-jdk
 
 cache:

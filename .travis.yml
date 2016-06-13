@@ -38,6 +38,7 @@ before_install:
   # - sudo apt-get install python3-mock 
   # - sudo apt-get install python3-pep8 
   - sudo apt-get install uncrustify
+  - sudo apt-get install g++-4.8 gcc-4.8
 
   ###########################
   ## dependencies for FastRTPS

@@ -54,12 +54,12 @@ before_install:
   ###########################
   ## dependencies for FastRTPS
   ###########################
-  - sudo apt-get install libboost-chrono-dev  
-  - sudo apt-get install libboost-date-time-dev 
-  - sudo apt-get install libboost-program-options-dev 
-  - sudo apt-get install libboost-regex-dev 
-  - sudo apt-get install libboost-system-dev 
-  - sudo apt-get install libboost-thread-dev  
+  # - sudo apt-get install libboost-chrono-dev  
+  # - sudo apt-get install libboost-date-time-dev 
+  # - sudo apt-get install libboost-program-options-dev 
+  # - sudo apt-get install libboost-regex-dev 
+  # - sudo apt-get install libboost-system-dev 
+  # - sudo apt-get install libboost-thread-dev  
 
 
 install: 

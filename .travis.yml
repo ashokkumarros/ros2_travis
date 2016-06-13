@@ -17,6 +17,7 @@ before_install:
   # - sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 
   # Dependencies
+  - sudo apt-get update
   - sudo apt-get install build-essential
   - sudo apt-get install gawk
   - sudo apt-get install git 
@@ -31,7 +32,7 @@ before_install:
   # - sudo apt-get install python3-pip 
   - sudo apt-get install python3-setuptools 
   # - sudo apt-get install python3-vcstool
-  - sudo apt-get install clang-format 
+  # - sudo apt-get install clang-format 
   - sudo apt-get install pyflakes 
   - sudo apt-get install python3-coverage 
   - sudo apt-get install python3-mock 

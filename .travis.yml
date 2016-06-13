@@ -1,4 +1,4 @@
-language: python
+language: python, cpp
 sudo: true
 
 python:
@@ -11,6 +11,7 @@ addons:
     packages:
       # nodejs >v4 compiler requirements
       - g++-4.8
+      - gcc-4.8
       # - openjdk-7-jdk
 
 cache:
@@ -82,6 +83,8 @@ install:
 
 
 script:
+  - export CXX=g++-4.8
+  - export CC=gcc-4.8
   - cd $HOME/ros2_ws/
   - src/ament/ament_tools/scripts/ament.py build --symlink-install
 

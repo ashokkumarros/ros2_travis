@@ -13,7 +13,7 @@ before_install:
   # - Tools/scripts/configure-ci.sh
   # - if [ "$TRAVIS_EVENT_TYPE" = "cron" ]; then export CI_CRON_JOB=1 ; fi
   - locale-gen en_US en_US.UTF-8 # set the locale
-  - update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+  - sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 
   # Dependencies
   - sudo apt-get install build-essential

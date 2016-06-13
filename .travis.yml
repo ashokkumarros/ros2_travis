@@ -28,7 +28,7 @@ before_install:
   - sudo apt-get install python3-dev 
   # - sudo apt-get install python3-empy 
   - sudo apt-get install python3-nose 
-  - sudo apt-get install python3-pip 
+  # - sudo apt-get install python3-pip 
   - sudo apt-get install python3-setuptools 
   - sudo apt-get install python3-vcstool
   - sudo apt-get install clang-format 

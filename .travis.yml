@@ -8,12 +8,13 @@ addons:
   apt:
     sources:
       - ubuntu-toolchain-r-test
-      - kalakris-cmake 
+      - george-edison55-precise-backports # cmake 3.2.3 / doxygen 1.8.3
     packages:
       # nodejs >v4 compiler requirements
       - g++-4.8
       - gcc-4.8
       - cmake
+      - cmake-data
       # - openjdk-7-jdk
 
 cache:
@@ -31,7 +32,7 @@ before_install:
   # Dependencies
   # - sudo add-apt-repository --yes ppa:kalakris/cmake # 2.8.11
   # - sudo add-apt-repository --yes ppa:kubuntu-ppa/backports # 2.8.12
-  - sudo add-apt-repository --yes ppa:george-edison55/precise-backports
+  # - sudo add-apt-repository --yes ppa:george-edison55/precise-backports
   - sudo apt-get update -qq
   - sudo apt-get install build-essential
   - sudo apt-get install gawk

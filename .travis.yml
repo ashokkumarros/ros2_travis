@@ -30,8 +30,8 @@ before_install:
 
   # Dependencies
   # - sudo add-apt-repository --yes ppa:kalakris/cmake # 2.8.11
-  # - sudo add-apt-repository --yes ppa:smspillaz/cmake-2.8.12
-  - sudo add-apt-repository --yes ppa:kubuntu-ppa/backports
+  # - sudo add-apt-repository --yes ppa:kubuntu-ppa/backports # 2.8.12
+  - sudo add-apt-repository --yes ppa:george-edison55/precise-backports
   - sudo apt-get update -qq
   - sudo apt-get install build-essential
   - sudo apt-get install gawk

@@ -54,7 +54,7 @@ before_install:
   - sudo apt-get install cppcheck 
   # - sudo apt-get install cmake 
   - sudo apt-get install libopencv-dev 
-  - sudo apt-get install python-empy 
+  # - sudo apt-get install python-empy 
   - sudo apt-get install python3-all-dev
   - sudo apt-get install libpython3.4-dev 
   # - sudo apt-get install libpython3-dev
